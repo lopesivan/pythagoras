@@ -11,10 +11,13 @@ AM_INIT_AUTOMAKE
 
 # Checks for programs.
 AC_PROG_CC
+AC_PROG_CC_C99
 AM_PROG_CC_C_O
+AC_PROG_INSTALL
+
 
 # We use libraries
-AC_PROG_RANLIB
+#AC_PROG_RANLIB
 
 # Checks for libraries.
 
@@ -23,9 +26,8 @@ AC_CHECK_HEADERS([stdio.h])
 AC_CHECK_HEADERS([stdlib.h])
 AC_CHECK_HEADERS([math.h])
 
-# Checks for typedefs, structures, and compiler characteristics.
-
 # Checks for library functions.
+AC_SEARCH_LIBS([sqrt], [m])
 
 AC_CONFIG_FILES([Makefile
 				 src/Makefile ])
