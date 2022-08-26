@@ -16,3 +16,5 @@ squares formed by the other two sides of the right triangle.
  $ make && make install
 ```
 
+
+LINK: https://www.gnu.org/software/automake/manual/html_node/Program-Variables.html#Program-Variables
