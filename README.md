@@ -12,6 +12,7 @@ squares formed by the other two sides of the right triangle.
 
 ```
  $ ./autogen.sh
- $ ./configure CFLAGS="-g -std=gnu99 -Wall -Wno-parentheses"
-
+ $ ./configure CFLAGS="-g -std=gnu99 -Wall -Wno-parentheses" prefix=/my/path
+ $ make && make install
 ```
+
