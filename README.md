@@ -11,7 +11,7 @@ squares formed by the other two sides of the right triangle.
 ## Create Makefile
 
 ```
- $ cmake .
+ $ cmake -DCMAKE_INSTALL_PREFIX=/my/path .
  $ make
 
 ```
