@@ -13,5 +13,8 @@ squares formed by the other two sides of the right triangle.
 ```
  $ cmake -DCMAKE_INSTALL_PREFIX=/my/path .
  $ make
+ou
+ $ cmake --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/clang-16  -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang++-16 -S/workspace/pythagoras .
+ $ make
 
 ```
