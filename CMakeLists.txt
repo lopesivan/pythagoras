@@ -11,3 +11,4 @@ file(GLOB HEADER_FILES "*.h")
 # your app
 add_executable(pythagoras ${SOURCE_FILES} ${HEADER_FILES})
 target_link_libraries(pythagoras m)
+install(TARGETS pythagoras DESTINATION bin)
