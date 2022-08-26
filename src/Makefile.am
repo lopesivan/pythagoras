@@ -1,5 +1,6 @@
-bin_PROGRAMS           = pythagoras
-src_pythagoras_SOURCES = pythagoras.c main.c
-src_pythagoras_CFLAGS  = -g -std=gnu99 -Wall -Wno-parentheses -I.
-src_pythagoras_LDLIBS  = -lm
+bin_PROGRAMS = pythagoras
+pythagoras_SOURCES = pythagoras.c main.c
+
+pythagoras_CFLAGS  = -g -std=gnu99 -Wall -Wno-parentheses -I.
+pythagoras_LDLIBS  = -lm
 
