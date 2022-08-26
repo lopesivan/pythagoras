@@ -3,7 +3,7 @@ project(pythagoras)
 
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_VERBOSE_MAKEFILE ON)
-set(CMAKE_C_FLAGS "-Wall -Werror")
+set(CMAKE_C_FLAGS "-g -Wall -Werror -Wno-parentheses")
 
 file(GLOB SOURCE_FILES "*.c")
 file(GLOB HEADER_FILES "*.h")
